@@ -1,58 +1,57 @@
-Smart Expense Tracker
-Smart Expense Tracker is a web-based application that allows users to upload receipts, extract itemized billing details using OCR, and track expenses by category to help manage personal budgets more effectively.
+# 💸 Smart Expense Tracker
 
-✅ Features
-Upload receipt images (JPG/PNG)
+**Smart Expense Tracker** is a web-based application that allows users to **upload receipts**, extract **itemized billing details using OCR**, and **track expenses by category** to help manage personal budgets more effectively.
 
-Extract items and prices using OCR (Optical Character Recognition)
+---
 
-Automatically compute total expenses from receipt
+## ✅ Features
 
-Categorize each item (Groceries, Dining, Stationery, etc.)
+- Upload receipt images (JPG/PNG)  
+- Extract items and prices using OCR (Optical Character Recognition)  
+- Automatically compute total expenses from receipt  
+- Categorize each item (Groceries, Dining, Stationery, etc.)  
+- Budget tracking per category  
+- View total and category-wise expenses  
+- Beautiful and responsive UI using Bootstrap 5
 
-Budget tracking per category
+---
 
-View total and category-wise expenses
+##  Tech Stack
 
-Responsive UI with Bootstrap 5
+- **Frontend**: HTML5, Bootstrap 5, Jinja2 templating  
+- **Backend**: Flask (Python)  
+- **OCR**: `pytesseract` + `Pillow`  
+- **Data Handling**: Python dictionaries / JSON  
+- **Optional**: SQLite (for persistent storage)
 
- Tech Stack
-Frontend: HTML5, Bootstrap 5, Jinja2 templating
+---
 
-Backend: Flask (Python)
+##  Installation
 
-OCR: pytesseract + Pillow
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/your-username/smart-expense-tracker.git
+   cd smart-expense-tracker
+   ```
 
-Data Handling: Python dictionaries / JSON
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Optional: SQLite (for persistent storage)
+3. **Run the application**:
+   ```bash
+   python app.py
+   ```
 
- Installation
-Clone the repo:
+4. **Access the app**:  
+   Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/smart-expense-tracker.git
-cd smart-expense-tracker
-Install dependencies:
+---
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the app:
+##  Folder Structure
 
-bash
-Copy
-Edit
-python app.py
-Visit: http://127.0.0.1:5000
-
-📂 Folder Structure
-cpp
-Copy
-Edit
+```
 smart-expense-tracker/
 ├── app.py
 ├── templates/
@@ -63,14 +62,22 @@ smart-expense-tracker/
 ├── processed_data/
 ├── utils/
 │   └── ocr_processing.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
+```
 
+---
 
- Future Improvements
-Add login/authentication system
+##  Future Improvements
 
-Export monthly reports (PDF/Excel)
+- Add login/authentication  
+- Export reports (PDF/Excel)  
+- Real-time visualizations  
+- Cloud storage integration  
 
-Cloud storage integration (Google Drive, Dropbox)
+---
 
-Real-time charts and analytics
+##  License
+
+This project is licensed under the [MIT License](LICENSE).
+
