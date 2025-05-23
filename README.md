@@ -1,4 +1,4 @@
-# 💸 Smart Expense Tracker
+#  Smart Expense Tracker
 
 **Smart Expense Tracker** is a web-based application that allows users to **upload receipts**, extract **itemized billing details using OCR**, and **track expenses by category** to help manage personal budgets more effectively.
 
