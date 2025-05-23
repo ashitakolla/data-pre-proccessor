@@ -1,0 +1,29 @@
+Missing values in 'Consumer' filled using mean
+Missing values in 'Unnamed: 2' filled using mean
+Missing values in 'Unnamed: 3' filled using mean
+Missing values in 'Unnamed: 4' filled using mean
+Missing values in 'Consumer Total' filled using mean
+Missing values in 'Corporate' filled using mean
+Missing values in 'Unnamed: 7' filled using mean
+Missing values in 'Unnamed: 8' filled using mean
+Missing values in 'Unnamed: 9' filled using mean
+Missing values in 'Corporate Total' filled using mean
+Missing values in 'Home Office' filled using mean
+Missing values in 'Unnamed: 12' filled using mean
+Missing values in 'Unnamed: 13' filled using mean
+Missing values in 'Unnamed: 14' filled using mean
+Missing values in 'Home Office Total' filled using mean
+Skipping column 'Segment>>' due to conversion issues
+Skipping column 'Consumer' due to conversion issues
+Skipping column 'Unnamed: 2' due to conversion issues
+Skipping column 'Unnamed: 3' due to conversion issues
+Skipping column 'Unnamed: 4' due to conversion issues
+Skipping column 'Corporate' due to conversion issues
+Skipping column 'Unnamed: 7' due to conversion issues
+Skipping column 'Unnamed: 8' due to conversion issues
+Skipping column 'Unnamed: 9' due to conversion issues
+Skipping column 'Home Office' due to conversion issues
+Skipping column 'Unnamed: 12' due to conversion issues
+Skipping column 'Unnamed: 13' due to conversion issues
+Skipping column 'Unnamed: 14' due to conversion issues
+Features scaled using standard scaler
